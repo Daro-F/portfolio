@@ -1,12 +1,12 @@
 /******************************************* FONTS *******************************************/
 @font-face {
     font-family: "f1_regular";
-    src: url(/assets/fonts/F1/Formula1-Regular_web_0.ttf);
+    src: url(./assets/fonts/F1/Formula1-Regular_web_0.ttf);
 }
 
 @font-face {
     font-family: "f1_bold";
-    src: url(/assets/fonts/F1/Formula1-Bold_web_0.ttf);
+    src: url(./assets/fonts/F1/Formula1-Bold_web_0.ttf);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&display=swap');
