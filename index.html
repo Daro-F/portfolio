@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Florian DA ROCHA</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- ================= HEADER ================= -->
+    <header id="site-header">
+        <div class="logo">Florian DA ROCHA</div>
+        <nav>
+            <a href="#projects">Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ================= LOADER ================= -->
+    <div id="loader">
+        <div class="bar"></div>
+    </div>
+
+    <!-- ================= CONTENU PRINCIPAL ================= -->
+    <main>
+
+        <!-- ===== HERO ===== -->
+        <section id="hero">
+            <div class="hero-left">
+                <h1>Florian DA ROCHA</h1>
+                <h2 id="hackTitle">Développeur Web Full-Stack</h2>
+                <p id="hackSubtitle">Je transforme des idées en expériences digitales modernes.</p>
+
+                <!-- CTA -->
+                <div class="cta">
+                    <a href="#projects" class="btn">Voir mes projets</a>
+                    <a href="#contact" class="btn secondary">Me contacter</a>
+                </div>
+            </div>
+
+            <!-- Particules côté droit -->
+            <div class="hero-right">
+                <div id="particles-hero"></div>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT ===== -->
+        <section id="about">
+            <div class="intro-wrapper">
+                <p class="intro-text" id="hackerText">
+                    <span>Développeur web passionné,</span> j'aime transformer des idées en projets concrets et bien pensés.
+                    Après plusieurs années dans la conception et le design des cuisines, j'ai choisi de me réorienter vers le développement pour donner vie à mes créations de bout en bout.
+                    Guidé par la précision et la recherche de performance du sport automobile, <span>j'accorde autant d'importance à la technique qu'à l'esthétique.</span><br><br>
+                    Curieux, rigoureux et motivé, j'évolue chaque jour en cherchant à concevoir des expériences web claires, rapides et modernes.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS ===== -->
+        <section id="skills">
+            <h2>Mes compétences</h2>
+
+            <h3>Langages</h3>
+            
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 90%">HTML</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 85%">CSS</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 65%">JavaScript</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 55%">PHP</div>
+                </div>
+            </div>
+
+            <h3>Frameworks</h3>
+
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 50%">Symfony</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-bar">
+                    <div class="skill-fill" style="--level: 40%">React</div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="projects">
+            <h2 id="projectsTitle" class="section-title">MES PROJETS</h2>
+            <p class="section-subtitle">Une sélection de mes créations</p>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <a href="https://github.com/Daro-F/Examen-Final-Symfony">
+                        <div class="card-inner">
+                            <img src="./assets/img/adopte-moi.png" alt="Examen Final Symfony">
+                            <div class="overlay">
+                                <h3>Examen Final Symfony</h3>
+                                <p>Symfony / CRUD / Likes</p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <a href="https://github.com/Daro-F/Examen-Final-Front-End">
+                        <div class="card-inner">
+                            <img src="./assets/img/front-end.png" alt="Examen Final front">
+                            <div class="overlay">
+                                <h3>Examen Final Front-End</h3>
+                                <p>HTML / CSS / JavaScript / JSON</p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+
+                <article class="project-card">
+                    <a href="https://daro-f.github.io/Examen-front-end/">
+                        <div class="card-inner">
+                            <img src="./assets/img/4-elements.png" alt="Examen front">
+                            <div class="overlay">
+                                <h3>Examen Front-End</h3>
+                                <p>HTML / CSS / JavaScript</p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Me contacter</h2>
+            <p>Intéressé par mon profil ? Voici comment me joindre :</p>
+
+            <div class="contact-links">
+                <a href="./assets/img/CV-Florian_DA_ROCHA.png" class="btn secondary" target="_blank">Voir mon CV</a>
+                <a href="https://github.com/Daro-F" target="_blank" class="btn secondary">GitHub</a>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <p>© 2025 — Florian DA ROCHA. Tous droits réservés.</p>
+        </footer>
+
+    </main>
+
+    <button id="backToTop" aria-label="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <!-- ================= ASIDE ================= -->
+    <aside>
+        <a href="https://github.com/Daro-F" target="_blank" class="github-window">
+            <i class="fab fa-github"></i>
+            <span class="github-text">Mon GitHub</span>
+        </a>
+    </aside>
+
+    <!-- Curseur et barre de scroll -->
+    <div class="cursor"></div>
+    <div class="scroll-progress-vertical"></div>
+
+    <!-- ================= SCRIPTS ================= -->
+    <!-- Script principal -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- Smooth scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script>
+    <script src="./assets/js/smooth-scroll.js"></script>
+
+    <!-- Particules -->
+    <script src="./assets/js/particles.min.js"></script>
+    <script src="./assets/js/particles-config.js"></script>
+
+    <!-- Barre de scroll -->
+    <script src="./assets/js/scroll-progress.js"></script>
+
+</body>
+</html>
+
